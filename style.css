@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    margin:  0;
+    background-color:hsl(185, 41%, 84%) ;
+    min-height: 100vh;
+    font-family: 'space mono';
+}
+.main-head{
+color: hsl(186, 14%, 43%);
+text-align: center;
+
+letter-spacing: 10px;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+.bill-container{
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 10px 10px 0px 0px;
+    flex: 1;
+}
+
+label,input{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container{
+    margin: 10px;
+}
+
+.bill-input{
+    height: 35px;
+    background: transparent;
+    text-align: right;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.dollar-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 20px;
+    background-color: hsl(189, 41%, 97%);
+    z-index: 20;
+}
+
+.dollar-input p{
+    font-size: 30px;
+    margin: 0;
+}
+
+.tip-buttons-container{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+.tip-buttons-container input{
+    width: 100%;
+}
+
+.tip-buttons-container > li > button{
+    width: 100%;
+    height: 40px;
+}
+button{
+    background-color:  hsl(183, 100%, 15%);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: medium;
+}
+.custom-tip{
+    text-align: center;
+    background-color:  hsl(185, 41%, 84%);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 24px;
+    color: hsl(184, 14%, 56%);
+}
+
+label,input{
+    display: block;
+    margin-bottom: 5px;
+}
+.input-container{
+    margin: 10px;
+}
+.people-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 20px;
+    background-color: hsl(189, 41%, 97%);
+    z-index: 20;
+}
+.people-input p{
+    font-size: 30px;
+    margin: 0;
+    
+}
+.people-input{
+    display: flex;
+    position: relative;
+    padding: 10px 20px;
+    background-color: hsl(189, 41%, 97%);
+    z-index: 20;
+}
+.last-container{
+    background-color: hsl(183, 100%, 15%);
+    padding: 20px 25px;
+    border-radius: 10px 10px 10px 10px;
+    flex: 1;
+}
+.tip{
+    font-size: large;
+    color: #fff;
+}
+.total{
+    font-size: large;
+    color: #fff;
+}
+.reset{
+    background-color:  hsl(172, 67%, 45%);
+    padding: 20px 25px;
+    color: hsl(183, 100%, 15%);
+    font-weight: 800;
+    width: 100%;
+}
+p{
+    margin: 0; 
+    margin-bottom: 10px;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+  
+}
